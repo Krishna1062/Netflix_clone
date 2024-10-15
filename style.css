@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.home {
+    position: relative;
+    background-image: url(assets/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar {
+    width: 80vw;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar div:nth-child(2) {
+    margin: 0 14px;
+}
+
+.btn {
+    padding: 7px 12px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btnf {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0f0f;
+    color: white;
+    border: 2px solid #7d7878;
+}
+
+.btn-sm-red {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.maincont {
+    color: white;
+    width: 48%;
+    margin: auto;
+    text-align: center;
+    padding: 150px 0 130px 0;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.mainContent :nth-child(1) {
+    font-weight: 900;
+    font-size: 56px;
+}
+
+.mainContent :nth-child(2) {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.input {
+    margin: 40px 0 0 0;
+}
+
+.input span {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.input input {
+    padding: 16px 150px 16px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgba(23, 23, 23, 0.68);
+    border: 3px solid #7d7878;
+    color: white;
+}
+
+.input input::placeholder {
+    color: white
+}
+
+.input-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+
+.btn-red {
+    padding: 13px 25px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    background-color: #e50914;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-red img {
+    padding: 0 0 0 7px;
+}
+
+.curveParent {
+    overflow: hidden;
+    position: relative;
+    height: 10vh;
+}
+
+.curve {
+    width: 140%;
+    position: relative;
+    left: -20%;
+    margin: auto;
+    height: 20vh;
+    /* border: solid 3px red; */
+    border-radius: 80% 80% 0 0;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+
+}
+
+.curve :first-child {
+    position: absolute;
+    width: 140%;
+    top: 5px;
+    /* margin-top: 6px; */
+    left: -20%;
+    /* margin: auto; */
+    border-radius: 100% 100% 0 0;
+    height: 10vh;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+}
+
+.partTwo {
+    background-color: black;
+    /* height: 100vh; */
+    /* position: relative; */
+    z-index: 2;
+}
+
+.firstsec {
+    color: white;
+    position: relative;
+    top: -10px;
+    width: 80%;
+    margin: auto;
+}
+
+.images {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image {
+    border-radius: 20px
+}
+
+.buts {
+    margin: 15px 0;
+}
+
+.arr {
+    border-radius: 20px;
+    background-color: #1c1a1a;
+    height: 17vh;
+    width: 4vh;
+}
+
+.secondsec {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.secondsec>p {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 60px 0 20px 0;
+}
+
+.cards {
+    display: flex;
+    gap: 18px;
+}
+
+.card {
+    background: linear-gradient(#1a2144, #1f1222);
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 25%;
+    /* height: 42vh; */
+}
+
+.card :first-child {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card :nth-child(2) {
+    font-size: 16;
+    font-weight: 400;
+    color: rgb(173, 173, 173);
+    margin: 5px 0 55px;
+}
+
+.svg {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 20px 0 0 0;
+}
+
+.thirdsec {
+    width: 80%;
+    margin: 70px auto 0 auto;
+}
+
+.thirdsec>span {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.fbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2d2d2d;
+}
+
+.fbox span {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.eadd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.eadd>span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.eadd input {
+    padding: 16px 400px 16px 20px;
+}
+
+.footer {
+    width: 80%;
+    margin: 80px auto 0 auto;
+    padding-bottom: 70px;
+}
+
+.footer>span {
+    color: rgb(178, 171, 171);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-items {
+    margin: 40px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-items ul {
+    color: rgb(178, 171, 171);
+    list-style: none;
+}
+
+.footer-items ul li {
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px 0px 13px 0;
+    color: rgb(178, 171, 171);
+}
+.footer button{
+    margin: 40px 0;
+}
+.footer>:nth-child(4) {
+    font-size: 14px;
+    color: rgb(178, 171, 171);
+    font-weight: 400;
+}
+@media screen and (max-width: 1195px) {
+    .mainContent :nth-child(1) {
+        font-weight: 900;
+        font-size: 48px;    
+    }
+    
+    .mainContent :nth-child(2) {
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .maincont {
+        width: 70%;
+    }
+    .firstsec{
+        width: 90%;
+    }
+    .secondsec{
+        width: 90%;
+    }
+    .thirdsec{
+        width: 90%;
+    } 
+      
+}
+
+@media screen and (max-width: 965px) {
+    .mainContent :nth-child(1) {
+        font-weight: 900;
+        font-size: 36px;    
+    }
+    
+    .mainContent :nth-child(2) {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .input span {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .maincont {
+        width: 70%;
+    }
+    .firstsec{
+        width: 90%;
+    }
+    .secondsec{
+        width: 90%;
+    }
+    .thirdsec{
+        width: 90%;
+    }
+    .input-items {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .card{
+        width: 90%;
+    }
+    .eadd input {
+        padding: 16px 150px 16px 20px;
+    }
+    .footer-items {
+        grid-template-columns: 1fr 1fr;
+    }
+}
